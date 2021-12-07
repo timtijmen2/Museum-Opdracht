@@ -1,0 +1,78 @@
+.imgbutton{
+    width: 300px;
+    height: 100px
+}
+
+#flow{
+    display: flex;
+    flex-direction: row;
+}
+#flow > div{
+    margin-left: 200px;
+    
+}
+#flow > div > div{
+    align-items: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 85px;
+    border-bottom: 1px solid #000000;
+}
+
+#home {
+    float: left;
+    margin-left: 10px;
+}
+
+#navigation > a {
+    float: left;
+    margin-top: 25px;
+    margin-left: 30px;
+    padding: 5px;
+}
+
+#language {
+    float: right;
+    margin-top: 25px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+#OT {
+    background-color: #808080;
+    border: 1px solid #000000;
+}
+
+article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    padding-left: 15%;
+    font-size: 20px;
+}
+
+img{
+    max-width: 100%;
+    margin-right: 40px;
+}
+
+.image{
+    flex-basis: 40%;
+}
+
+.text{
+    display: inline;
+    width: 75%;
+}
