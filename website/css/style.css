@@ -1,0 +1,22 @@
+article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    padding-left: 15%;
+    font-size: 20px;
+}
+
+img{
+    max-width: 100%;
+    margin-right: 40px;
+}
+
+.image{
+    flex-basis: 40%;
+}
+
+.text{
+    display: inline;
+    width: 75%;
+}
