@@ -1,0 +1,197 @@
+/* Landing Page Big Image */
+.Landing-page-pic > img{
+    width: 100%;
+    height: 70%px;
+    position: relative;
+}
+.Landing-page-pic > h1{
+    
+}
+
+.imgbutton{
+    width: 300px;
+    height: 100px
+}
+
+#flow{
+    display: flex;
+    flex-direction: row;
+}
+#flow > div{
+    margin-left: 200px;
+    
+}
+#flow > div > div{
+    align-items: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav > ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+nav > ul > li {
+    height: 100%;
+    width: 100%;
+}
+
+nav > ul > li > a {
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 17.5px;
+    text-decoration: none;
+    color: black;
+}
+
+nav > ul > li > img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+#logo {
+    width: 60%;
+    margin-left: -100px;
+}
+
+#OT {
+    background-color: #808080;
+    border: 1px solid #000000;
+}
+
+#flag {
+    width: 60px;
+    height: 30px;
+    margin-right: 0px;
+}
+
+#language {
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+main{
+    height: 100vh;
+}
+
+.openingstijden{
+    width: 30vw;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.openingstijden > table{
+    border-spacing: 2px;
+}
+
+.openingstijden > table > tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.tickets{
+    width: 30vw;
+    margin: 0 auto;
+}
+
+.tickets > table{
+    border-spacing: 2px;
+}
+
+.tickets > table > tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    color: blue;
+}
+
+.dropbtn {
+    background-color: blue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: violet;
+}
+
+.dropdown {
+    position: relative;
+    display: inline;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: white;
+}
+
+.show {
+    display:block;
+}
+
+footer {
+    font-size: 17.5px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+#footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+#socials {
+    list-style: none;
+}
+
+#socials > li > a {
+    text-decoration: none;
+}
+
+#reviews {
+    width: 225px;
+    height: 200px;
+    overflow-y: scroll;
+    background-color: #808080;
+}
