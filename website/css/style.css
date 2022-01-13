@@ -21,23 +21,30 @@
     box-sizing: border-box;
 }
 
+body {
+    font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+header {
+    height: 75px;
+    background-color: #000040;
+}
+
 nav {
     height: 100%;
     width: 100%;
-    display: block;
-    text-align: center;
-    justify-content: space-evenly;
-    align-items: center;
+    margin: 0 auto;
 }
 
 nav > ul {
-    height: 100%;
-    width: 100%;
     display: flex;
-    list-style: none;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 20px;
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: space-evenly;
 }
 
 nav > ul > li {
@@ -49,37 +56,38 @@ nav > ul > li > a {
     height: 100%;
     width: 100%;
     display: block;
+    font-size: 125%;
+    line-height: 75px;
+    text-decoration: none;
     text-align: center;
-    font-size: 17.5px;
+    color: #FFFFFF;
+}
+
+nav > ul > li > a:hover {
+    background-color: #000080;
+}
+
+#home {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 125%;
     text-decoration: none;
 }
 
-nav > ul > li > img {
-    height: 100%;
-    width: 100%;
-    display: block;
-    text-align: center;
-}
-
 #logo {
-    width: 60%;
-    margin-left: -100px;
+    height: 60px;
 }
 
-#OT {
-    background-color: #808080;
-    border: 1px solid #000000;
+#flagUK {
+    height: 15px;
 }
 
-#flag {
-    width: 60px;
-    height: 30px;
-    margin-right: 0px;
-}
-
-#language {
-    justify-content: center;
-    margin-bottom: 10px;
+#flagNL {
+    height: 20%;
+    width: 30%;
 }
 
 article{
