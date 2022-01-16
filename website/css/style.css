@@ -1,20 +1,70 @@
+<<<<<<< HEAD
 header > nav {
-    height: 100%;
+=======
+/* Landing Page Big Image */
+.Landing-page-pic > img{
     width: 100%;
-    display: block;
-    text-align: center;
-    justify-content: space-evenly;
+    height: 70%px;
+    position: relative;
+}
+.Landing-page-pic > h1{
+    
+}
+
+.imgbutton{
+    width: 300px;
+    height: 100px
+}
+
+#flow{
+    display: flex;
+    flex-direction: row;
+}
+#flow > div{
+    margin-left: 200px;
+    
+}
+#flow > div > div{
     align-items: center;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+header {
+    height: 75px;
+    background-color: #000040;
+}
+
+nav {
+>>>>>>> 3ee8f2d91b7b700990039ef5ad4d829280521d8e
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+<<<<<<< HEAD
 header > nav > ul {
     height: 100%;
     width: 100%;
+=======
+nav > ul {
+>>>>>>> 3ee8f2d91b7b700990039ef5ad4d829280521d8e
     display: flex;
-    list-style: none;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 20px;
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: space-evenly;
 }
 
 header > nav > ul > li {
@@ -26,35 +76,95 @@ header > nav > ul > li > a {
     height: 100%;
     width: 100%;
     display: block;
+    font-size: 125%;
+    line-height: 75px;
+    text-decoration: none;
     text-align: center;
-    font-size: 17.5px;
+    color: #FFFFFF;
+}
+
+nav > ul > li > a:hover {
+    background-color: #000080;
+}
+
+<<<<<<< HEAD
+header > nav > ul > li > img {
+=======
+#home {
+>>>>>>> 3ee8f2d91b7b700990039ef5ad4d829280521d8e
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 125%;
     text-decoration: none;
 }
 
-header > nav > ul > li > img {
-    height: 100%;
-    width: 100%;
-    display: block;
-    text-align: center;
-}
-
 #logo {
-    width: 60%;
-    margin-left: -100px;
+    height: 60px;
 }
 
-#OT {
-    background-color: #808080;
-    border: 1px solid #000000;
+#flagUK {
+    height: 15px;
 }
 
-#flag {
-    width: 60px;
-    height: 30px;
-    margin-right: 0px;
-}
-
+<<<<<<< HEAD
 #language {
     justify-content: center;
     margin-bottom: 10px;
+=======
+#flagNL {
+    height: 20%;
+    width: 30%;
+}
+
+article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    padding-left: 15%;
+    font-size: 17.5px;
+}
+
+img{
+    max-width: 100%;
+    margin-right: 0px;
+}
+
+.image{
+    flex-basis: 40%;
+}
+
+.text{
+    display: inline;
+    width: 75%;
+}
+
+footer {
+    font-size: 17.5px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+#footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+#socials {
+    list-style: none;
+}
+
+#socials > li > a {
+    text-decoration: none;
+}
+
+#reviews {
+    width: 225px;
+    height: 200px;
+    overflow-y: scroll;
+    background-color: #808080;
+>>>>>>> 3ee8f2d91b7b700990039ef5ad4d829280521d8e
 }
