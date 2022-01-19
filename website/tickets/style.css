@@ -25,6 +25,7 @@ body {
     font-size: 15px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 400;
+    min-height: 100vh;
 }
 
 header {
@@ -98,6 +99,7 @@ main{
     width: 30vw;
     margin: 0 auto;
     padding-top: 60px;
+    transform: scale(2);
 }
 
 .openingstijden > table{
@@ -109,10 +111,12 @@ main{
     vertical-align: middle;
     border-color: inherit;
 }
+
 .tickets{
     width: 30vw;
     margin: 0 auto;
-    padding-top: 60px
+    padding-top: 220px;
+    transform: scale(2);
 }
 
 .tickets > table{
@@ -126,46 +130,8 @@ main{
     color: blue;
 }
 
-.dropbtn {
-    background-color: blue;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-.dropbtn:hover, .dropbtn:focus {
-    background-color: violet;
-}
-
-.dropdown {
-    position: relative;
-    display: inline;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px black;
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-    background-color: white;
-}
-
-.show {
-    display:block;
+option{
+    font-size: 200%;
 }
 
 footer {
