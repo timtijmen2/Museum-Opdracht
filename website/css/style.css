@@ -1,0 +1,298 @@
+/* Landing Page Big Image */
+#Landing-page-pic > img{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 0%;
+}
+#Landing-page-pic > h1{
+    margin: auto 0;
+    width: 100%;
+    position: absolute;
+}
+
+.imgbutton{
+    width: 300px;
+    height: 100px
+}
+
+#buttons{
+    display: flex;
+    gap: 20px;
+}
+
+#buttons > .box{
+    display: flex;
+    margin-top: 1.5%;
+}
+
+#buttons > .box > figure, section{
+    margin-right: 20%;
+}
+
+#buttons > .box > figure > img{
+    width: 100%;
+    height: 80%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+header {
+    height: 75px;
+    background-color: #000040;
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav > ul {
+    display: flex;
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+nav > ul > li {
+    height: 100%;
+    width: 100%;
+}
+
+nav > ul > li > a {
+    height: 100%;
+    width: 100%;
+    display: block;
+    font-size: 125%;
+    line-height: 75px;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+nav > ul > li > a:hover {
+    background-color: #000080;
+}
+
+.OenT {
+    font-weight: bold;
+    color: #009DFF;
+}
+
+#home {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 125%;
+    text-decoration: none;
+}
+
+#logo {
+    height: 60px;
+}
+
+#flagUK {
+    height: 15px;
+}
+
+#flagNL {
+    height: 20%;
+    width: 30%;
+}
+
+main {
+    height: 50px;
+    min-height: 50vh;
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.box > a > section{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    padding: 40px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent,80%,black);
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.box > a > figure{
+    width: 100%;
+    height: 100%;
+}
+
+.box > a > figure > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+    transition: 0.2s transform;
+}
+
+.box > a > figure > img:hover{
+    background: linear-gradient(transparent,60%,black);
+}
+
+.sectionTour {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.sectionTour > img {
+    max-width: 100%
+}
+
+.imageTour {
+    flex-basis: 30%;
+    padding-left: 20%
+}
+
+.text {
+    width: 40%;
+}
+
+footer {
+    height: 303px;
+    padding-top: 25px;
+    background-color: #000040;
+    color: #FFFFFF;
+    font-size: 125%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    
+}
+
+#contacts {
+    text-align: left;
+    padding-left: 15%;
+}
+
+#contactsList {
+    display: inline-block;
+    padding-top: 30px;
+}
+
+#contactsList > a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#contactsList > p {
+    padding-top: 30px;
+}
+
+#socials {
+    text-align: left;
+    padding-left: 15%;
+}
+
+#socialsList {
+    list-style: none;
+    display: inline-block;
+    padding-top: 18px;
+}
+
+#socialsList > li {
+    padding-top: 18px;
+}
+
+#socialsList > li > a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#socialsList > li > a > img {
+    height: 30px;
+}
+
+#reviews {
+    text-align: left;
+    padding-left: 15%;
+}
+
+.reviewTitle {
+    width: 250px;
+    display: flex;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+
+.reviewAverage {
+    width: 225px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: right;
+    font-size: 20px;
+}
+
+.reviewAmount {
+    width: 250px;
+    margin-top: -20px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: right;
+    font-size: 15px;
+}
+
+#reviewBlock {
+    width: 250px;
+    height: 212px;
+    margin-bottom: 25px;
+    display: inline-block;
+    overflow-y: scroll;
+    background-color: #000020;
+}
+
+.reviewText {
+    background-color: #000080;
+    text-align: left;
+    padding: 5px;
+    font-size: 15px;
+    border-bottom: 2px solid #000000;
+}
+
+.reviewName {
+    font-weight: bold;
+}
+
+.rating {
+    text-align: right;
+    margin-top: -20px;
+}
+
+/* classes tour */ 
+.imageTour{
+    margin: auto;
+}
