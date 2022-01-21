@@ -1,11 +1,13 @@
 /* Landing Page Big Image */
-.Landing-page-pic > img{
+#Landing-page-pic > img{
     width: 100%;
-    height: 70%px;
-    position: relative;
+    height: 50%;
+    margin-bottom: 0%;
 }
-.Landing-page-pic > h1{
-    
+#Landing-page-pic > h1{
+    margin: auto 0;
+    width: 100%;
+    position: absolute;
 }
 
 .imgbutton{
@@ -13,16 +15,18 @@
     height: 100px
 }
 
-#flow{
+article > #buttons{
     display: flex;
-    flex-direction: row;
+    margin-top: 1.5%;
+    margin-left: 10%;
 }
-#flow > div{
-    margin-left: 200px;
-    
+
+article > #buttons > figure{
+    margin-right: 20%;
 }
-#flow > div > div{
-    align-items: center;
+article > #buttons > figure > img{
+    width: 180%;
+    height: 80%;
 }
 
 * {
@@ -77,6 +81,11 @@ nav > ul > li > a:hover {
     background-color: #000080;
 }
 
+.OenT {
+    font-weight: bold;
+    color: #009DFF;
+}
+
 #home {
     height: 100%;
     width: 100%;
@@ -100,18 +109,9 @@ nav > ul > li > a:hover {
     width: 30%;
 }
 
-article{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 70%;
-    padding-left: 15%;
-    font-size: 17.5px;
-}
-
-img{
-    max-width: 100%;
-    margin-right: 0px;
+main {
+    height: 50px;
+    min-height: 50vh;
 }
 
 .image{
@@ -124,27 +124,115 @@ img{
 }
 
 footer {
-    font-size: 17.5px;
-    margin: 10px;
-    margin-top: 20px;
-}
-
-#footer {
+    height: 303px;
+    padding-top: 25px;
+    background-color: #000040;
+    color: #FFFFFF;
+    font-size: 125%;
     display: grid;
     grid-template-columns: auto auto auto auto;
+    text-align: center;
+    
+}
+
+#contacts {
+    text-align: left;
+    padding-left: 15%;
+}
+
+#contactsList {
+    display: inline-block;
+    padding-top: 30px;
+}
+
+#contactsList > a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#contactsList > p {
+    padding-top: 30px;
 }
 
 #socials {
-    list-style: none;
+    text-align: left;
+    padding-left: 15%;
 }
 
-#socials > li > a {
+#socialsList {
+    list-style: none;
+    display: inline-block;
+    padding-top: 18px;
+}
+
+#socialsList > li {
+    padding-top: 18px;
+}
+
+#socialsList > li > a {
     text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#socialsList > li > a > img {
+    height: 30px;
 }
 
 #reviews {
+    text-align: left;
+    padding-left: 15%;
+}
+
+.reviewTitle {
+    width: 250px;
+    display: flex;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+
+.reviewAverage {
     width: 225px;
-    height: 200px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: right;
+    font-size: 20px;
+}
+
+.reviewAmount {
+    width: 250px;
+    margin-top: -20px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: right;
+    font-size: 15px;
+}
+
+#reviewBlock {
+    width: 250px;
+    height: 212px;
+    margin-bottom: 25px;
+    display: inline-block;
     overflow-y: scroll;
-    background-color: #808080;
+    background-color: #000020;
+}
+
+.reviewText {
+    background-color: #000080;
+    text-align: left;
+    padding: 5px;
+    font-size: 15px;
+    border-bottom: 2px solid #000000;
+}
+
+.reviewName {
+    font-weight: bold;
+}
+
+.rating {
+    text-align: right;
+    margin-top: -20px;
 }
