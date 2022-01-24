@@ -1,39 +1,3 @@
-/* Landing Page Big Image */
-#Landing-page-pic > img{
-    width: 100%;
-    height: 50%;
-    margin-bottom: 0%;
-}
-#Landing-page-pic > h1{
-    margin: auto 0;
-    width: 100%;
-    position: absolute;
-}
-
-.imgbutton{
-    width: 300px;
-    height: 100px
-}
-
-#buttons{
-    display: flex;
-    gap: 20px;
-}
-
-#buttons > .box{
-    display: flex;
-    margin-top: 1.5%;
-}
-
-#buttons > .box > figure, section{
-    margin-right: 20%;
-}
-
-#buttons > .box > figure > img{
-    width: 100%;
-    height: 80%;
-}
-
 * {
     padding: 0;
     margin: 0;
@@ -46,6 +10,8 @@ body {
 	font-weight: 400;
 }
 
+
+/* Header */
 header {
     height: 75px;
     background-color: #000040;
@@ -116,71 +82,8 @@ nav > ul > li > a:hover {
     width: 30%;
 }
 
-main {
-    height: 100%;
-    min-height: 50vh;
 
-}
-
-.box {
-    position: relative;
-    width: 100%;
-    height: 400px;
-    padding: 0;
-    margin-bottom: 40px;
-}
-
-.box > a > section{
-    position: absolute;
-    bottom: 0%;
-    left: 0%;
-    padding: 40px;
-    color: white;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(transparent,80%,black);
-    border-radius: 50px;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-}
-
-.box > a > figure{
-    width: 100%;
-    height: 100%;
-}
-
-.box > a > figure > img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50px;
-    transition: 0.2s transform;
-}
-
-.box > a > figure > img:hover{
-    background: linear-gradient(transparent,60%,black);
-}
-
-.sectionTour {
-    display: flex;
-    align-items: center;
-    justify-content: center
-}
-
-.sectionTour > img {
-    max-width: 100%
-}
-
-.imageTour {
-    flex-basis: 30%;
-    padding-left: 20%
-}
-
-.text {
-    width: 40%;
-}
-
+/* Footer */
 footer {
     height: 303px;
     width: 100%;
@@ -296,9 +199,4 @@ footer {
 .rating {
     text-align: right;
     margin-top: -20px;
-}
-
-/* classes tour */ 
-.imageTour{
-    margin: auto;
 }
