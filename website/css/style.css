@@ -49,6 +49,8 @@ body {
 header {
     height: 75px;
     background-color: #000040;
+    position: fixed;
+    width: 100%;
 }
 
 nav {
@@ -180,6 +182,8 @@ main {
 
 footer {
     height: 303px;
+    width: 100%;
+    margin-top: 1%;
     padding-top: 25px;
     background-color: #000040;
     color: #FFFFFF;
@@ -187,7 +191,8 @@ footer {
     display: grid;
     grid-template-columns: auto auto auto auto;
     text-align: center;
-    
+    position: relative;
+    bottom: 0;
 }
 
 #contacts {
