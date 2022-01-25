@@ -88,9 +88,9 @@ body{
     margin: 50px auto 50px auto;
     display: grid;
     grid-template-columns: auto auto;
-    border: inset 2px gray;
+    border: inset 2px black;
     position: relative;
-    background: grey;
+    background: darkblue;
 }
 
 #myInteraction{
@@ -116,29 +116,42 @@ nav button {
     padding: 10px;
 }
 
+h3{
+    color: white;
+}
+
+#myTitle{
+    color: white;
+}
+
 #myImage{
+    border: inset 2px black;
     width: 500px;
 }
 
 #knopNoordVleugel, #knopVooruit{
+    border: inset 2px black;
     display: block;
     width: 304px;
     height: 60px;
 }
 
 #knopTerug{
+    border: inset 2px black;
     display: block;
     width: 304px;
     height: 60px;
 }
 
 #knopOostVleugel, #knopRechts{
+    border: inset 2px black;
     display: inline-block;
     width: 150px;
     height: 60px;
 }
 
 #knopWestVleugel, #knopLinks{
+    border: inset 2px black;
     display: inline-block;
     width: 150px;
     height: 60px;
