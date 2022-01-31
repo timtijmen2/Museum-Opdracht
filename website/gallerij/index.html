@@ -23,16 +23,15 @@
         </nav>
     </header>
 
-
     <main>
         <h1>Kunstwerken en tentoonstellingen</h1>
         <article>
         
             
-            <img src="https://media.delving.org/thumbnail/dcn/hetscheepvaartmuseum/20160009-1/900" alt="Gezicht op het IJ, met oorlogsschepen die gekalefaterd (gebreeuwd) worden. Rechts van het midden ligt De Spiegel, het schip van Michiel de Ruyter. Aan de rechterkant het 's Lands Zeemagazijn.">
+            <img id="paintingTop" src="https://media.delving.org/thumbnail/dcn/hetscheepvaartmuseum/20160009-1/900" alt="Gezicht op het IJ, met oorlogsschepen die gekalefaterd (gebreeuwd) worden. Rechts van het midden ligt De Spiegel, het schip van Michiel de Ruyter. Aan de rechterkant het 's Lands Zeemagazijn.">
             <figure>
-                <h2><strong>Gezicht op het IJ met 's Lands Zeemagazijn</strong></h2>
-                <p>
+                <h2 id="paintingTopTitle"><strong>Gezicht op het IJ met 's Lands Zeemagazijn</strong></h2>
+                <p id="paintingTopText">
                     Reinier Nooms behoort tot de belangrijkste zeeschilders van de 17de eeuw. 
                     Hij dankte zijn bijnaam Zeeman, waarmee hij het schilderij ook signeerde, aan zijn vele zeereizen. 
                     In de weergave van maritieme en nautische details van de schepen was hij zeer deskundig. 
@@ -58,8 +57,57 @@
             </figure>
             <img src="https://media.delving.org/thumbnail/dcn/hetscheepvaartmuseum/a1710(02)2/900" alt="De rede van Canton">
         </article>
+        <button onclick="buttonLeftPress()">⮜</button><span id="space"></span><button>⮞</button>
+        <script>
+            let paintingTopArray = [
+                {
+                    src: "https://media.delving.org/thumbnail/dcn/hetscheepvaartmuseum/20160009-1/900",
+                    alt: "Gezicht op het IJ, met oorlogsschepen die gekalefaterd (gebreeuwd) worden. Rechts van het midden ligt De Spiegel, het schip van Michiel de Ruyter. Aan de rechterkant het 's Lands Zeemagazijn.",
+                    title: "Gezicht op het IJ met 's Lands Zeemagazijn",
+                    text: "Reinier Nooms behoort tot de belangrijkste zeeschilders van de 17de eeuw. Hij dankte zijn bijnaam Zeeman, waarmee hij het schilderij ook signeerde, aan zijn vele zeereizen. In de weergave van maritieme en nautische details van de schepen was hij zeer deskundig. Zijn werk is van groot belang voor de kennis van de Nederlandse 17de-eeuwse scheepvaart. Het schilderij toont 's Lands Zeemagazijn, de locatie van Het Scheepvaartmuseum, gezien vanaf de toenmalige buitenkant, nu de Prins Hendrikkade. In 1656 was het nieuwe 's Lands Zeemagazijn in gebruik genomen door de admiraliteit van Amsterdam als opslagplaats voor de uitrusting van de oorlogsvloot. Met dit schilderij kunnen we op een aanschouwelijke wijze het verhaal vertellen over Amsterdam als centrum van de 17de eeuwse scheepvaart, de functie van 's Lands Zeemagazijn en de bedrijvigheid op de werven er omheen. Het laat op een indrukwekkende manier zien dat de voorbereidingen van de Nederlands-Engelse zeeoorlogen ook op de werven in de omgeving van het huidige museum werden uitgevoerd en dat de bezoeker zich op niets minder dan historische grond bevindt. Daarmee is het schilderij zowel kunsthistorisch als maritiem-historisch een bijzondere aanwinst voor het Nederlandse openbare kunstbezit.",
+                    test:"Test"
+                },
+                {
+                    src: "https://media.delving.org/thumbnail/dcn/hetscheepvaartmuseum/s2227(03)/900",
+                    alt: "Het fregatschip Cornelia Henriette op de rede van Deshima",
+                    title: "Het fregatschip Cornelia Henriette op de rede van Deshima",
+                    text: "Het fregatschip Cornelia Henriette op de rede van Deshima. Het schip is gepavoiseerd en is omringd door inheemse vaartuigen, waaronder een jonk."
+                },
+                {
+                    src: "https://www.hetscheepvaartmuseum.nl/sites/default/files/2020-01/20154508_M%2C%20Schepen%20op%20kalm%20water%20in%20de%20avond%2C%20Willem%20van%20de%20Velde%20de%20Jonge%2C%201670%20-%201707.jpg",
+                    alt: "Willem van de Velde & Zoon",
+                    title: "Willem van de Velde & Zoon",
+                    text: "De tentoonstelling 'Willem van de Velde, vader en zoon' vertelt over het artistieke talent en de ondernemingslust van de Van de Veldes, die een bloeiend en internationaal opererend familie-atelier runden. Vader en zoon Van de Velde worden gezien als toonaangevende Nederlandse zeeschilders van de zeventiende eeuw met een grote artistieke invloed. In de tentoonstelling wordt een gedetailleerd beeld neergezet van het familiebedrijf van de Van de Veldes, hun vakmanschap als maritieme experts en hun uitmuntende artistieke vaardigheden als kunstenaars. In de tentoonstelling zijn ongeveer 40 schilderijen en penschilderingen en 35 tekeningen te zien. Grote musea als het Rijksmuseum, het Mauritshuis en het National Maritime Museum in Greenwich verlenen hun medewerking aan de tentoonstelling. In één van de tentoonstellingszalen geeft Het Scheepvaartmuseum een voorbeeld van de veelzijdigheid van de Van de Veldes door middel van een heel andere kunstvorm: twee unieke wandtapijten, die samen met de ontwerptekeningen getoond worden."
+                },
+                {
+                    
+                },
 
-        <button>⮜</button><button>⮞</button>
+            ];
+            let paintingIndex = 0;
+            let paintingTop = document.getElementById("paintingTop");
+            let paintingTopTitle = document.getElementById("paintingTopTitle");
+            let paintingTopText = document.getElementById("paintingTopText");
+            paintingTop.src = paintingTopArray[paintingIndex].src;
+            paintingTop.alt = paintingTopArray[paintingIndex].alt;
+            paintingTopTitle.innerHTML = paintingTopArray[paintingIndex].title;
+            paintingTopText.innerHTML = paintingTopArray[paintingIndex].text;
+            function buttonLeftPress(){
+                paintingIndex -= 1;
+                if(paintingIndex == -1){
+                    paintingIndex = paintingTopArray.length - 1;
+                }
+                paintingTop.src = paintingTopArray[paintingIndex].src;
+                paintingTop.alt = paintingTopArray[paintingIndex].alt;
+                paintingTopTitle.innerHTML = paintingTopArray[paintingIndex].title;
+                paintingTopText.innerHTML = paintingTopArray[paintingIndex].text;
+                console.log(paintingIndex)
+
+            }
+            
+            console.log(paintingTop.alt);
+            
+        </script>
     </main>
 
 
@@ -90,7 +138,8 @@
             </ul>
         </section>
         <section id="reviews">
-            <h2><span class="reviewTitle">Reacties</span><span class="reviewAverage">4★</span><span
+            <h2><span class="reviewTitle">React
+                ies</span><span class="reviewAverage">4★</span><span
                     class="reviewAmount">(4)</span></h2>
             <div id="reviewBlock">
                 <div class="reviewText">

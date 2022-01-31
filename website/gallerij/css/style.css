@@ -30,4 +30,16 @@ article > figure > h2{
 
 article > img{
     margin-right: 3%;
+    width: 50%;
+}
+main > button{
+    width: 5%;
+    font-size: 500%;
+    border: white;
+    border-radius: 20px;
+    color: white;
+    background-color: #0000ac;
+}
+main > #space{
+    width: 60%;
 }
