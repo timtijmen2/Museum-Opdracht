@@ -35,11 +35,14 @@ article > img{
 main > button{
     width: 5%;
     font-size: 500%;
-    border: white;
+    border-color: #0000ac;
+    border-style: solid;
     border-radius: 20px;
-    color: white;
-    background-color: #0000ac;
+    color: #0000ac;
+    background-color: white;
 }
 main > #space{
     width: 60%;
 }
+
+
