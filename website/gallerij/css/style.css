@@ -44,5 +44,7 @@ main > button{
 main > #space{
     width: 60%;
 }
-
+#paintingTopYear{
+    font-size: 500%;
+}
 

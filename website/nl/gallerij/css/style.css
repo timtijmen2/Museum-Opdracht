@@ -44,5 +44,19 @@ main > button{
 main > #space{
     width: 60%;
 }
+#paintingTopYear{
+    font-size: 600%;
+    opacity: 30%;
+}
 
-
+#paintingBottomYear{
+    font-size: 600%;
+    opacity: 30%;
+    
+}
+.paintingTitle{
+    display: flex;
+    vertical-align: bottom;
+    line-height: 50px;
+    white-space: nowrap;
+}
