@@ -1,0 +1,277 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+header {
+    height: 75px;
+    background-color: #000040;
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav > ul {
+    display: flex;
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+nav > ul > li {
+    height: 100%;
+    width: 100%;
+}
+
+nav > ul > li > a {
+    height: 100%;
+    width: 100%;
+    display: block;
+    font-size: 125%;
+    line-height: 75px;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+nav > ul > li > a:hover {
+    background-color: #000080;
+}
+
+.OenT {
+    font-weight: bold;
+    color: #009DFF;
+}
+
+#home {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 125%;
+    text-decoration: none;
+}
+
+#logo {
+    height: 60px;
+}
+
+#flagUK {
+    height: 15px;
+}
+
+#flagNL {
+    height: 20%;
+    width: 30%;
+}
+
+main {
+    height: 50px;
+    min-height: 50vh;
+}
+
+.introductie {
+    width: 45%;
+    position: absolute;
+    top: 75px;
+    margin: 1%;
+}
+
+.tentoonstellingen {
+    position: absolute;
+    top: 25%;
+    width: 45%;
+    margin: 1%;
+}
+
+.tentoonstellingSlider {
+    margin: 1%;
+    width: 50%;
+    height: 90%;
+    margin-left: 49%;
+    background-size: cover;
+    animation-name: tentoonstellingSlider;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    background-position: center center;
+}
+
+@keyframes tentoonstellingSlider {
+    0% {
+        background-image: url("img/foto1.jpg");
+    }
+    25% {
+        background-image: url("img/foto2.jpg");
+    }
+    50% {
+        background-image: url("img/foto3.jpg");
+    }
+    75% {
+        background-image: url("img/foto4.png");
+    }
+    100% {
+        background-image: url("img/foto5.jpg");
+    }
+}
+
+.geschiedenis {
+    position: absolute;
+    top: 59%;
+    right: 5%;
+    width: 45%;
+    margin: 1%;
+}
+
+.geschiedenisSlider {
+    margin: 1%;
+    margin-top: 2%;
+    width: 45%;
+    height: 100%;
+    background-size: cover;
+    animation-name: geschiedenisSlider;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    background-position: center center;
+}
+
+@keyframes geschiedenisSlider {
+    0% {
+        background-image: url("img/foto6.jpg");
+    }
+    33% {
+        background-image: url("img/foto7.jpg");
+    }
+    66% {
+        background-image: url("img/foto8.jpg");
+    }
+    100% {
+        background-image: url("img/foto9.jpg");
+    }
+}
+
+footer {
+    height: 303px;
+    padding-top: 25px;
+    margin-top: 52vh;
+    background-color: #000040;
+    color: #FFFFFF;
+    font-size: 125%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+}
+
+#contacts {
+    text-align: left;
+    padding-left: 15%;
+}
+
+#contactsList {
+    display: inline-block;
+    padding-top: 30px;
+}
+
+#contactsList > a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#contactsList > p {
+    padding-top: 30px;
+}
+
+#socials {
+    text-align: left;
+    padding-left: 15%;
+}
+
+#socialsList {
+    list-style: none;
+    display: inline-block;
+    padding-top: 18px;
+}
+
+#socialsList > li {
+    padding-top: 18px;
+}
+
+#socialsList > li > a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#socialsList > li > a > img {
+    height: 30px;
+}
+
+#reviews {
+    text-align: left;
+    padding-left: 15%;
+}
+
+.reviewTitle {
+    width: 250px;
+    display: flex;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+
+.reviewAverage {
+    width: 225px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: right;
+    font-size: 20px;
+}
+
+.reviewAmount {
+    width: 250px;
+    margin-top: -20px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: right;
+    font-size: 15px;
+}
+
+#reviewBlock {
+    width: 250px;
+    height: 212px;
+    margin-bottom: 25px;
+    display: inline-block;
+    overflow-y: scroll;
+    background-color: #000020;
+}
+
+.reviewText {
+    background-color: #000080;
+    text-align: left;
+    padding: 5px;
+    font-size: 15px;
+    border-bottom: 2px solid #000000;
+}
+
+.reviewName {
+    font-weight: bold;
+}
+
+.rating {
+    text-align: right;
+    margin-top: -20px;
+}
