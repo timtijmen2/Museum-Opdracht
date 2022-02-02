@@ -22,18 +22,18 @@
                     year: "1670",
                 },
                 {
-                    src: "https://media.delving.org/thumbnail/dcn/hetscheepvaartmuseum/20160003-1/900",
-                    alt: "Een raderstoomschip in veerdienst bij een opstapplaats aan een steiger",
-                    title: "Een raderstoomschip",
-                    text: "Een raderstoomschip in veerdienst bij een opstapplaats aan een steiger. Centraal in de compositie een raderstoomschip onder stoom aan een steiger bij een dorp. Links twee zeilschepen, rechtsonder een roeiboot.",
-                    year: "1846"
+                    src: "",
+                    alt: "",
+                    title: "",
+                    text: "",
+                    year: ""
                 },
                 {
-                    src: "https://media.delving.org/thumbnail/dcn/hetscheepvaartmuseum/20080446/900",
-                    alt: "De Willem Barents in de Noordelijke IJszee",
-                    title: "De Willem Barents in de Noordelijke IJszee",
-                    text: "De Willem Barents in de Noordelijke IJszee aan het pakijs gemeerd, De schoener Willem Barents in de Noordelijke IJszee aan het pakijs gemeerd.",
-                    year: "1878"
+                    src: "",
+                    alt: "",
+                    title: "",
+                    text: "",
+                    year: ""
                 }
             ];
 
@@ -46,32 +46,32 @@
                     year: "1745"
                 },
                 {
-                    src: "https://media.delving.org/thumbnail/dcn/hetscheepvaartmuseum/20080463/900",
-                    alt: "De grootste en hoogste ijsberg",
-                    title: "De grootste en hoogste ijsberg",
-                    text: "De grootste en hoogste ijsberg, gezien in de Spitsberg Zee. Een ijsberg in zee, linksonder de Willem Barents, de grootte in verhouding getekend met de ijsberg.",
-                    year: "1881"
+                    src: "",
+                    alt: "",
+                    title: "",
+                    text: "",
+                    year: ""
                 },
                 {
-                    src: "https://media.delving.org/thumbnail/dcn/hetscheepvaartmuseum/a0145(064)2/900",
-                    alt: "Met de hand gekleurde kaart van Nieuw Nederland",
-                    title: "Met de hand gekleurde kaart van Nieuw Nederland",
-                    text: "Met de hand gekleurde kaart van Nieuw Nederland, Nieuw Engeland en een deel van Virginia, naar Visscher. Met de hand gekleurde kaart van Nieuw Nederland, Nieuw Engeland en een deel van Virginia, naar Nicolaas Jansz Visscher. Uitgave Justinus Danckerts (1635 - 1701), Amsterdam, circa 1673. Met aanzicht van New York.",
-                    year: "1673"
+                    src: "",
+                    alt: "",
+                    title: "",
+                    text: "",
+                    year: ""
                 },
                 {
-                    src: "https://media.delving.org/thumbnail/dcn/hetscheepvaartmuseum/a0149(0044)/900",
-                    alt: "Een spiegeljacht van de Staten-Generaal",
-                    title: "Een spiegeljacht van de Staten-Generaal",
-                    text: "Uit de serie D'Y Stroom en Zeegezichten: Een spiegeljacht van de Staten-Generaal en een boeier die zeil mindert. Uit de serie D'Y Stroom en Zeegezichten: Een spiegeljacht van de Staten-Generaal en een boeier die zeil mindert. Op de achtergrond een stad.",
-                    year: "1613"
+                    src: "",
+                    alt: "",
+                    title: "",
+                    text: "",
+                    year: ""
                 },
                 {
-                    src: "https://media.delving.org/thumbnail/dcn/hetscheepvaartmuseum/a0149(0870)/900",
-                    alt: "Zijaanzicht en grootspant van een wijdschip",
-                    title: "Zijaanzicht en grootspant van een wijdschip",
-                    text: "Algemeen plan met zijaanzicht en grootspant van een wijdschip (hektjalk, beurtschip) van 70 x 20 x 8'.3\" voet. Gemaakt ergens tussen 1650 - 1690.",
-                    year: "1650"
+                    src: "",
+                    alt: "",
+                    title: "",
+                    text: "",
+                    year: ""
                 }
             ];
             let paintingIndex = 0;

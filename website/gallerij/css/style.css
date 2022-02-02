@@ -1,0 +1,48 @@
+
+
+header{
+    margin-bottom: 1%;
+}
+
+h1{
+    margin-bottom: 1%;
+}
+main{
+    margin-left: 1%;
+}
+article{
+    display: flex;
+    margin-bottom: 2%;
+    font-size: 20px;
+}
+
+article > figure{
+    width: 50%;
+}
+
+article > figure{
+    padding-top: 8%;
+}
+article > figure > h2{
+    margin-bottom: 1%;
+
+}
+
+article > img{
+    margin-right: 3%;
+    width: 50%;
+}
+main > button{
+    width: 5%;
+    font-size: 500%;
+    border-color: #0000ac;
+    border-style: solid;
+    border-radius: 20px;
+    color: #0000ac;
+    background-color: white;
+}
+main > #space{
+    width: 60%;
+}
+
+
