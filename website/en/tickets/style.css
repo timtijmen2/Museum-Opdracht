@@ -94,8 +94,12 @@ nav > ul > li > a:hover {
 }
 
 #flagNL {
-    height: 20%;
-    width: 30%;
+    height: 15px;
+}
+
+.OenT {
+    font-weight: bold;
+    color: #009DFF;
 }
 
 <<<<<<< HEAD
