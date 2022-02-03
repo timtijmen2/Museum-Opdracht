@@ -5,81 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Het Scheepvaartmuseum</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Virtuele Tour</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <nav>
             <ul>
-                <li><a id="home" href="index.html"><img id="logo" src="img/Logo_van_het_Scheepvaartmuseum.svg"
-                            alt="Logo van het Scheepvaartmuseum"></a></li>
-                <li><a href="over_ons/index.html">Over Ons</a></li>
-                <li><a class="OenT" href="tickets/tickets.html">Openingstijden & Tickets</a></li>
-                <li><a href="virtuele_tour/index.html">Virtuele Tour</a></li>
-                <li><a href="gallerij/index.html">Galerij</a></li>
-                <li><a href=""><img id="flagUK" src="img/Vlag_van_het_Verenigd_Koninkrijk.png"
-                            alt="Vlag van het Verenigd Koninkrijk"> English</a></li>
+                <li><a id="home" href="../index.html"><img id="logo" src="../../img/Logo_van_het_Scheepvaartmuseum.svg" alt="Logo van het Scheepvaartmuseum"></a></li>
+                <li><a href="../over_ons/index.html">About us</a></li>
+                <li><a class="OenT" href="../tickets/tickets.html">Times & Tickets</a></li>
+                <li><a href="../virtuele_tour/index.html">Virtual Tour</a></li>
+                <li><a href="../gallerij/index.html">Gallery</a></li>
+                <li><a href="../../nl/virtuele_tour/index.html"><img id="flagNL" src="../../img/Vlag_van_Nederland.png" alt="Vlag van het Verenigd Koninkrijk"> Nederlands</a></li>
             </ul>
         </nav>
     </header>
-    <figure id="Landing-page-pic">
-        <img src="img/landingpage-boat.jpg" alt="Picture of the boat at the museum">
-        <h1>Het Scheepvaartmuseum</h1>
-    </figure>
-    <article>
-        <!-- buttons -->
-        <article id="buttons">
-            <article class="box">
-                <a href="gallerij/index.html">
-                    <figure>
-                        <img class="imgbutton" src="img/galerij-img.jpg" alt="Open Gallarij Foto">
-                    </figure>
-                    <section>
-                        <h2>Galerij</h2>
-                        <p>bekijk hier onze collectie</p>
-                    </section>
-                </a>
-            </article>
-            <article class="box">
-                <a href="tickets/tickets.html">
-                    <figure>
-                        <img class="imgbutton" src="img/galerij-img.jpg" alt="Open Gallarij Foto">
-                    </figure>
-                    <section>
-                        <h2>Openingstijden & Tickets</h2>
-                        <p>bekijk hier de openingstijden en de tickets</p>
-                    </section>
-                </a>
-            </article>
-            <article class="box">
-                <a href="over-ons/index.html">
-                    <figure>
-                        <img class="imgbutton" src="img/galerij-img.jpg" alt="Open Gallarij Foto">
-                    </figure>
-                    <section>
-                        <h2>Onze geschiedenis</h2>
-                        <p>lees hier over onze geschiedenis als museum!</p>
-                    </section>
-                </a>
-            </article>
-        </article>
-        <!-- /buttons -->
-        <section class="sectionTour">
-            <img src="https://placekitten.com/400/400" alt="schattige kat" class="imageTour">
-            <article class="text">
-                <h2>Virtuele Tour</h2>
-                <p>
-                    Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure.
-                </p>
-            </article>
+    <main>
+        <section id="container">
+            <img id="myImage" src="tourImg/260px-Binnenplaats_Het_Zeemagazijn.jpg" alt=" ">
+            <div id="myInteraction">
+                <h2 id="myTitle">binnenplaats</h2>
+                <h3>kies welke richting je op wilt</h3>
+                <nav>
+                    <button id="knopNoordVleugel" onclick="goDirection('noordVleugel')">Noordvleugel</button>
+                    <button id="knopWestVleugel" onclick="goDirection('westVleugel')">Westvleugel</button>
+                    <button id="knopOostVleugel" onclick="goDirection('oostVleugel')">Oostvleugel</button>
+                    <button id="knopVooruit" onclick="goDirection('vooruit')">Vooruit</button>
+                    <button id="knopLinks" onclick="goDirection('links')">Links</button>
+                    <button id="knopRechts" onclick="goDirection('rechts')">Rechts</button>
+                    <button id="knopTerug" onclick="goDirection('terug')">Terug</button>
+                </nav>
+            </div>
         </section>
-    </article>
+        <script src="script.js"></script>
+    </main>
     <footer>
         <section id="contacts">
             <h2>Contact</h2>
@@ -96,7 +57,7 @@
                 width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </section>
         <section id="socials">
-            <h2>Sociale Media</h2>
+            <h2>Social Media</h2>
             <ul id="socialsList">
                 <li><a href="https://twitter.com/schpvrtmsm"><img src="img/Twitter_Logo.png" alt="">Twitter</a></li>
                 <li><a href="https://www.instagram.com/hetscheepvaartmuseum/"><img src="img/Instagram_Logo.png"
@@ -108,7 +69,7 @@
             </ul>
         </section>
         <section id="reviews">
-            <h2><span class="reviewTitle">Reacties</span><span class="reviewAverage">3,83★</span><span
+            <h2><span class="reviewTitle">Reviews</span><span class="reviewAverage">3.83★</span><span
                     class="reviewAmount">(6)</span></h2>
             <div id="reviewBlock">
                 <div class="reviewText">

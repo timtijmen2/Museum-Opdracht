@@ -77,6 +77,11 @@ nav > ul > li > a:hover {
     text-decoration: none;
 }
 
+.OenT {
+    font-weight: bold;
+    color: #009DFF;
+}
+
 #logo {
     height: 60px;
 }

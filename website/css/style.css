@@ -110,8 +110,7 @@ nav > ul > li > a:hover {
 }
 
 #flagNL {
-    height: 20%;
-    width: 30px;
+    height: 15px;
 }
 
 main {
@@ -176,23 +175,26 @@ main {
 }
 
 footer {
-    height: 303px;
+    height: 100%;
     padding-top: 25px;
     background-color: #000040;
     color: #FFFFFF;
     font-size: 125%;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
+    justify-content: space-evenly;
 }
 
 #contacts {
     text-align: left;
-    padding-left: 15%;
+    flex-shrink: 1;
+    flex-grow: 0;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 #contactsList {
-    display: inline-block;
     padding-top: 30px;
 }
 
@@ -206,9 +208,17 @@ footer {
     padding-top: 30px;
 }
 
+#map {
+    flex-shrink: 1;
+    flex-grow: 0;
+    margin-right: 50px;
+}
+
 #socials {
     text-align: left;
-    padding-left: 15%;
+    flex-shrink: 1;
+    flex-grow: 0;
+    margin-right: 50px;
 }
 
 #socialsList {
@@ -235,7 +245,9 @@ footer {
 
 #reviews {
     text-align: left;
-    padding-left: 15%;
+    flex-shrink: 1;
+    flex-grow: 0;
+    margin-right: 50px;
 }
 
 .reviewTitle {
@@ -291,4 +303,22 @@ footer {
 /* classes tour */ 
 .imageTour{
     margin: auto;
+}
+
+@media screen and (max-width: 1224px) {
+    #reviews {
+        margin-top: 50px
+    }
+}
+
+@media screen and (max-width: 924px) {
+    #socials {
+        margin-top: 50px
+    }
+}
+
+@media screen and (max-width: 688px) {
+    #map {
+        margin-top: 50px
+    }
 }
