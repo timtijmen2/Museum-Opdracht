@@ -59,8 +59,16 @@ nav > ul > li > a {
     font-size: 125%;
     line-height: 75px;
     text-decoration: none;
+<<<<<<< HEAD
     text-align: center;
     color: #FFFFFF;
+=======
+<<<<<<< HEAD:old site backup/css/style.css
+=======
+    text-align: center;
+    color: #FFFFFF;
+>>>>>>> 43b84e85313e71094f2383cf754a8b27a003fe92:old site backup/tickets/style.css
+>>>>>>> be8de39fd21d134949ae6931a79a8eead870eec5
 }
 
 nav > ul > li > a:hover {
@@ -94,6 +102,18 @@ nav > ul > li > a:hover {
     color: #009DFF;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:old site backup/css/style.css
+article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    padding-left: 15%;
+    font-size: 17.5px;
+=======
+>>>>>>> be8de39fd21d134949ae6931a79a8eead870eec5
 main{
     height: 100vh;
 }
@@ -128,6 +148,7 @@ main{
     vertical-align: middle;
     border-color: inherit;
     color: blue;
+<<<<<<< HEAD
 }
 
 .dropbtn {
@@ -170,6 +191,23 @@ main{
 
 .show {
     display:block;
+=======
+>>>>>>> 43b84e85313e71094f2383cf754a8b27a003fe92:old site backup/tickets/style.css
+}
+
+img{
+    max-width: 100%;
+    margin-right: 0px;
+}
+
+.image{
+    flex-basis: 40%;
+}
+
+.text{
+    display: inline;
+    width: 75%;
+>>>>>>> be8de39fd21d134949ae6931a79a8eead870eec5
 }
 
 footer {

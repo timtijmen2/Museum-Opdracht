@@ -49,6 +49,8 @@ body {
 header {
     height: 75px;
     background-color: #000040;
+    position: fixed;
+    width: 100%;
 }
 
 nav {
@@ -114,8 +116,9 @@ nav > ul > li > a:hover {
 }
 
 main {
-    height: 50px;
+    height: 100%;
     min-height: 50vh;
+
 }
 
 .box {
@@ -184,6 +187,8 @@ footer {
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-evenly;
+    position: relative;
+    bottom: 0;
 }
 
 #contacts {

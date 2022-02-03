@@ -1,0 +1,180 @@
+.imgbutton{
+    width: 300px;
+    height: 100px
+}
+
+#flow{
+    display: flex;
+    flex-direction: row;
+}
+#flow > div{
+    margin-left: 200px;
+    
+}
+#flow > div > div{
+    align-items: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+header {
+    height: 75px;
+    background-color: #000040;
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav > ul {
+    display: flex;
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+nav > ul > li {
+    height: 100%;
+    width: 100%;
+}
+
+nav > ul > li > a {
+    height: 100%;
+    width: 100%;
+    display: block;
+    font-size: 125%;
+    line-height: 75px;
+    text-decoration: none;
+<<<<<<< HEAD:old site backup/css/style.css
+=======
+    text-align: center;
+    color: #FFFFFF;
+>>>>>>> 43b84e85313e71094f2383cf754a8b27a003fe92:old site backup/tickets/style.css
+}
+
+nav > ul > li > a:hover {
+    background-color: #000080;
+}
+
+#home {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 125%;
+    text-decoration: none;
+}
+
+#logo {
+    height: 60px;
+}
+
+#flagUK {
+    height: 15px;
+}
+
+#flagNL {
+    height: 20%;
+    width: 30%;
+}
+
+<<<<<<< HEAD:old site backup/css/style.css
+article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    padding-left: 15%;
+    font-size: 17.5px;
+=======
+main{
+    height: 100vh;
+}
+
+.openingstijden{
+    width: 30vw;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.openingstijden > table{
+    border-spacing: 2px;
+}
+
+.openingstijden > table > tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.tickets{
+    width: 30vw;
+    margin: 0 auto;
+    padding-top: 60px
+}
+
+.tickets > table{
+    border-spacing: 2px;
+}
+
+.tickets > table > tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    color: blue;
+>>>>>>> 43b84e85313e71094f2383cf754a8b27a003fe92:old site backup/tickets/style.css
+}
+
+img{
+    max-width: 100%;
+    margin-right: 0px;
+}
+
+.image{
+    flex-basis: 40%;
+}
+
+.text{
+    display: inline;
+    width: 75%;
+}
+
+footer {
+    font-size: 17.5px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+#footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+#socials {
+    list-style: none;
+}
+
+#socials > li > a {
+    text-decoration: none;
+}
+
+#reviews {
+    width: 225px;
+    height: 200px;
+    overflow-y: scroll;
+    background-color: #808080;
+}
